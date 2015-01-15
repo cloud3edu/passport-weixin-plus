@@ -23,6 +23,25 @@ passport.use(new WeixinStrategy({
 }, function(accessToken, refreshToken, profile, done){
   done(null, profile);
 }));
+
+or
+
+passport.use(new WeixinStrategy({
+  clientID: function(req) {
+    //return different appid for different req
+  },
+  clientSecret: function(req) {
+    //return different secret for different req
+  },
+  callbackURL: function(req) {
+    //return different callbackURL for different req
+  },
+  requireState: false,
+  scope: 'snsapi_login'
+}, function(accessToken, refreshToken, profile, done){
+  done(null, profile);
+}));
+
 ```
 
 ### License
