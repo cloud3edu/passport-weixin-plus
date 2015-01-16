@@ -11,7 +11,7 @@ npm install passport-weixin-plus
 
 ```js
 var passport = require('passport')
-  , WeixinStrategy = require('passport-weixin')
+  , WeixinStrategy = require('passport-weixin-plus')
   ;
 
 passport.use(new WeixinStrategy({
