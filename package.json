@@ -1,6 +1,6 @@
 {
   "name": "passport-weixin-plus",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "passport oauth2 strategy for weixin",
   "main": "./lib",
   "scripts": {
@@ -20,6 +20,6 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloud3edu/passport-weixin-plus.git"
+    "url": "https://github.com/lutaoact/passport-weixin-plus.git"
   }
 }
