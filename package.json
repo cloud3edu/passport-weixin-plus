@@ -1,7 +1,7 @@
 {
   "name": "passport-weixin-plus",
-  "version": "0.0.3",
-  "description": "passport oauth2 strategy for weixin",
+  "version": "0.0.4",
+  "description": "passport oauth2 strategy for weixin, Support different appids and appsecrets based on different requests",
   "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
