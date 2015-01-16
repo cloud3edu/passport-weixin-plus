@@ -4,7 +4,7 @@ passport oauth2 strategy for weixin
 ### Install
 
 ```bash
-npm install passport-weixin
+npm install passport-weixin-plus
 ```
 
 ### Usage

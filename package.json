@@ -1,5 +1,5 @@
 {
-  "name": "passport-weixin",
+  "name": "passport-weixin-plus",
   "version": "0.0.1",
   "description": "passport oauth2 strategy for weixin",
   "main": "./lib",
@@ -12,7 +12,7 @@
     "oauth2",
     "strategy"
   ],
-  "author": "Treri",
+  "author": "lutaoact",
   "license": "MIT",
   "dependencies": {
     "passport-oauth2": "^1.1.2"
@@ -20,10 +20,6 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Treri/passport-weixin.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Treri/passport-weixin/issues"
-  },
-  "homepage": "https://github.com/Treri/passport-weixin"
+    "url": "https://github.com/cloud3edu/passport-weixin-plus.git"
+  }
 }
